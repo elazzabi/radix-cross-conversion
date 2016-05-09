@@ -1,0 +1,33 @@
+{
+  "name": "radix-cross-conversion",
+  "version": "1.0.0",
+  "description": "Convert numbers from and to different bases",
+  "license": "MIT",
+  "repository": "github.com/elazzabi/radix-cross-conversion",
+  "author": {
+    "name": "EL AZZABI ahmed",
+    "email": "elazzabi.ahmed@gmail.com",
+    "url": "elazzabi.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "radix",
+    "conversion",
+    "cross conversion",
+    "binary",
+    "octal",
+    "hexa"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "^0.14.0"
+  }
+}
